@@ -37,6 +37,10 @@
 				<label for="id_data">Data de Nascimento</label><br/>
 				<input id="id_data" type="date" name="data" required /><br/><br/>
 
+				<label for="id_tipo">Tipo</label><br/>
+				<input onclick="Pro_ou_alu(x = 1)"id="id_professor" type="radio" name="professor" value="op1" checked/>Professor<br/>
+				<input onclick="Pro_ou_alu(x = 2)" id="id_aluno" type="radio" name="aluno" value="op2"/>Aluno<br/><br/>
+
 				<label for="id_cpf">CPF</label><br/>
 				<input id="id_cpf" placeholder="CPF" type="text" name="cpf" required /><br/><br/>
 
@@ -51,7 +55,7 @@
 
 				<input type="reset" name="Reniciar">
 
-				<input type="submit" name="Enviar"><br/>
+				<input onclick="Pro_Alu()" type="submit" name="Enviar"><br/>
 			</form>
 		</div>
 	</div>
@@ -61,6 +65,6 @@
 	<footer>
 		<h3>Todos os Direitos Reservados para Thiago Mazzoni e Vitor Jacob</h3>
 	</footer>
-
+	<script src="javascript/funcoes.js"></script>
 	</body>
 </html>
