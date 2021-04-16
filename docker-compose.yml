@@ -1,0 +1,10 @@
+version: "3"
+services:
+  qenem:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: qenem
+    container_name: qenem
+    ports:
+      - "8080:80"
