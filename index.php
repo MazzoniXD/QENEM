@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Q-ENEM</title>
+        <link rel="icon" href="https://img.ibxk.com.br/2014/10/programas/123551392.png">
         <link rel="stylesheet" href="css/normalizacao.css">
         <link rel="stylesheet" href="css/estilo.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
