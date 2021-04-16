@@ -4,7 +4,7 @@ function Entrar_alu(){
     elemento3 = document.querySelector('#id_senha');
     if(elemento.value.length >= 20 && elemento2.value.length == 11 && elemento3.value >= 1){
         event.preventDefault()
-        window.location='gabi_expli.html';
+        window.location='gabi_expli.php';
     }
 }
 
@@ -14,19 +14,19 @@ function Entrar_pro(){
     elemento3 = document.querySelector('#id_senha');
     if(elemento.value.length >= 20 && elemento2.value.length == 11 && elemento3.value >= 1){
         event.preventDefault()
-        window.location='criar_questao.html';
+        window.location='criar_questao.php';
     }
 }
 
 function Botao_selecao(){
     if(int == 1){
-        window.location='humanas.html';
+        window.location='humanas.php';
     }else if (int == 2){
-        window.location='linguagens.html';
+        window.location='linguagens.php';
     }else if (int == 3){
-        window.location='matematica.html';
+        window.location='matematica.php';
     }else if (int == 4){
-        window.location='biologicas.html';
+        window.location='biologicas.php';
     }
 }
 
@@ -46,9 +46,9 @@ function Pro_Alu(){
     if(elemento.value.length >= 20 && elemento4.value == elemento3.value && elemento2.value.length == 11){
         event.preventDefault()
         if(document.querySelector('#id_professor').checked === true){
-            window.location='pagina_professor.html';
+            window.location='pagina_professor.php';
         }else if(document.querySelector('#id_aluno').checked === true){
-            window.location='pagina_aluno.html';
+            window.location='pagina_aluno.php';
         }
     }
 }

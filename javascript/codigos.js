@@ -1,5 +1,3 @@
-
-
 function testeConteudo() {
     elemento = document.querySelector('#campo1');
 

@@ -11,15 +11,8 @@
 
 <body>
 	<header>
-		<img src="imagens/qenem.png" id="id_logo">
-		<nav id="id_paginas">
-			<a href="index.html">Home</a>
-			<a href="pagina_aluno.html">Página do Aluno</a>
-			<a href="pagina_professor.html">Página do Professor</a>
-			<a href="gabi_expli.html">Questões</a>
-			<a href="cadastro.html">Cadastro</a>
-		</nav>
-		<h2 id="pagina_atual">Em construção</h2>
+        <?php include 'header.php';?>
+		<h2 id="pagina_atual">Humanas</h2>
 	</header><br/><br/>
 
 	<div>
@@ -27,9 +20,7 @@
 	</div>
 
 	<footer>
-
-		<h3>Todos os Direitos Reservados para Thiago Mazzoni e Vitor Jacob</h3>
-
+        <?php include 'footer.php';?>
 	</footer>
 	<script src="javascript/funcoes.js"></script>
 </body>
