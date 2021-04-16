@@ -11,7 +11,7 @@ document.querySelector('#botao').onclick = function() {
 document.querySelector('#botao_esconder').onclick = function() {
     elemento = document.querySelector('#formulario');
     botao = document.querySelector('#botao_esconder');
-     
+
     if(elemento.style.display === "none") {
         elemento.style.display = '';
         botao.innerHTML = 'Esconder';
@@ -23,13 +23,13 @@ document.querySelector('#botao_esconder').onclick = function() {
 };
 
 document.querySelector('#campo1').onkeyup = function() {
-    
+
     elemento = document.querySelector('#campo1');
-    
+
     valor = elemento.value;
-    
+
     msg = document.querySelector('#msg_validar');
-    
+
     if(valor.length < 10) {
        msg.innerHTML = '<p style="color:red">Inválido</p>';
     }
@@ -38,10 +38,9 @@ document.querySelector('#campo1').onkeyup = function() {
     }
 };
 
-
 document.querySelector('#botao_estilo').onclick = function() {
     elemento = document.getElementById('texto');
-    
+
     elemento.style.color = 'blue';
     elemento.style.backgroundColor = 'green';
     elemento.style.marginLeft = '200px';
@@ -50,6 +49,6 @@ document.querySelector('#botao_estilo').onclick = function() {
 
 document.querySelector('#botao_conteudo').onclick = function() {
     elemento = document.getElementById('id_div');
-    
+
     elemento.innerHTML = "<ol><li>Item 1</li><li>Item 2</li></ol>";
 }

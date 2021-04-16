@@ -14,7 +14,7 @@
 	    <?php include 'header.php';?>
 		<h2 id="pagina_atual">Cadastro</h2>
 	</header><br/><br/>
-	
+
 	<div id="corpo">
 		<div id="centro">
 			<form id="id_formulario">
@@ -52,7 +52,7 @@
 			</form>
 		</div>
 	</div>
-	
+
 	<br/><br/>
 
 	<footer>

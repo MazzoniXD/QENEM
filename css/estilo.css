@@ -66,21 +66,21 @@ header{
     width: 45%;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    font-family: Arial;    
+    font-family: Arial;
 }
 
 #id_formulario #id_professor{
     width: 5%;
     margin-top: 2vh;
     margin-bottom: 0vh;
-    font-family: Arial; 
+    font-family: Arial;
 }
 
 #id_formulario #id_aluno{
     width: 5%;
     margin-top: 2vh;
     margin-bottom: 0vh;
-    font-family: Arial; 
+    font-family: Arial;
 }
 
 footer{

@@ -19,7 +19,7 @@
         <form id="id_formulario">
             <label for="id_questao">Questão:</label><br/>
             <textarea id="id_questao" placeholder="Digite a questão com as alternativas" type="text" name="enunciado" rows="20" required></textarea><br/><br/><br/><br/>
-            
+
             <label for="id_gabarito">Resposta:</label><br/>
 			<textarea id="id_gabarito" placeholder="Digite o gabarito" type="text" name="gabarito" rows="15" required ></textarea><br/><br/>
         </form>

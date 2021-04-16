@@ -17,7 +17,7 @@
 
 	<div id="centro">
 		<form id="id_formulario">
-		
+
 			<label for="id_email">Email</label><br/>
 			<input id="id_email" placeholder="Email" type="email" name="email" required /><br/><br/>
 
