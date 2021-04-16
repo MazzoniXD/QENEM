@@ -8,3 +8,5 @@ services:
     container_name: qenem
     ports:
       - "8080:80"
+    volumes:
+      - .:/var/www/html
