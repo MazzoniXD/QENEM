@@ -1,0 +1,209 @@
+header{
+    background-color: #0f5e79;
+    height: 242px;
+}
+
+#id_logo{
+    width: 16vw;
+    float: left;
+}
+
+#id_paginas{
+    height: 4vh;
+    margin-top: 5vh;
+    float: right;
+}
+
+#id_paginas a{
+    text-align: end;
+    margin: 2vw;
+    font-family: Impact;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-shadow: 3px 3px 3px #222222;
+}
+
+#pagina_atual{
+    text-align: center;
+    font-size: 65px;
+    clear: both;
+    color: white;
+    text-shadow: 5px 5px 5px #222222;
+}
+
+#corpo{
+    clear: both;
+    background-color: #ffffff;
+    height: -webkit-fill-available;
+}
+
+#centro{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    clear: both;
+    background-color: white;
+    height: fit-content;
+    width : 60%;
+    margin-left: 20%;
+}
+
+#id_formulario{
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 6vw;
+}
+
+#id_formulario label{
+    font-size: 32px;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+#id_formulario input{
+    font-size: 28px;
+    width: 45%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family: Arial;
+}
+
+#id_formulario #id_professor{
+    width: 5%;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    font-family: Arial;
+}
+
+#id_formulario #id_aluno{
+    width: 5%;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    font-family: Arial;
+}
+
+footer{
+    clear: both;
+    background-color: #0f5e79;
+    height: 20vh;
+}
+
+footer h3{
+    font-family: Arial;
+    padding-top: 5vh;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 3px #222222;
+}
+
+.quadro{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: rgb(47, 92, 47);
+    width: 25%;
+}
+
+p{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 3px 3px #222222;
+}
+
+#quadro_um{
+    clear: both;
+    float: left;
+    margin-left: 24.42vw;
+}
+
+#quadro_dois{
+    clear: both;
+    float: right;
+    margin-right: 24.42vw;
+}
+#quadro_tres{
+    clear: both;
+    float: left;
+    margin-left: 24.42vw;
+}
+#quadro_quatro{
+    clear: both;
+    float: right;
+    margin-right: 24.42vw;
+    margin-bottom: 6vh;
+}
+
+#quadro_principal{
+    font-family: Impact;
+    text-align: center;
+    font-size: 45px;
+    clear: both;
+    color: #000000;
+}
+
+button{
+    font-size: 32px;
+    font-family: Arial;
+    width: 15%;
+}
+
+#botao_um{
+    clear: both;
+    float: left;
+    margin-top: 8vh;
+    margin-left: 18vw;
+    margin-bottom: 20vh;
+}
+
+#botao_dois{
+    float: right;
+    margin-top: 8vh;
+    margin-right: 18vw;
+    margin-bottom: 20vh;
+}
+#botao_tres{
+    clear: both;
+    float: left;
+    margin-left: 18vw;
+    margin-bottom: 12vh;
+}
+#botao_quatro{
+    float: right;
+    margin-right: 18vw;
+    margin-bottom: 12vh;
+}
+
+.questao{
+    text-align: left;
+    font-size: 25px;
+    color: black;
+    text-shadow: 0px 0px 0px #222222;
+}
+
+#id_questao_quadro{
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+#ver_resposta{
+    width: 90%;
+    margin-left: 2.5vw;
+}
+
+#id_questao{
+    font-size: 24px;
+    width: 88%;
+}
+
+#id_gabarito{
+    font-size: 24px;
+    width: 88%;
+}
+
+#reparo{
+    margin-left: 25vw;
+}
